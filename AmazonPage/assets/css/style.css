@@ -1,0 +1,141 @@
+/* BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 237, 238);
+    width: 100%;
+}
+/* HEADER */
+#logo{
+    background-color:rgb(34, 47, 63);
+}
+#amazon{
+    width: 6rem;
+    padding: 0.2%;
+    padding-left: 1.5rem;
+}
+#menu{
+    background-color: rgb(54, 71, 89);
+    padding-left: 1.5rem;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+}
+#menu li {
+    display: inline-block;
+    margin-right: 0.5%;
+    font-size: 70%;
+}
+#menu li a{
+    color: rgb(229, 242, 241);
+    text-decoration: none;
+}
+#holiday{
+    text-align: center;
+    background-color: rgb(245, 102, 0);
+    margin: 1.5rem;
+    padding: 0.3%;
+}
+#holiday a{
+    color: rgb(229, 242, 241);
+    text-decoration: none;
+    font-size: 70%;
+}
+h1, header p, #gaming h2, #audio h2, aside, footer{
+text-align: center;
+}
+#sfondo{
+    background:url(bg-image.png);
+    padding: 2rem;
+    margin: 1.5rem;
+    background-position: top center;
+}
+
+h1{
+    font-size: 140%;
+    padding-bottom: 1.6%;
+    padding-top: 1.3%;
+}
+
+h1, header p{
+    color: rgb(229, 242, 241);
+}
+header p{
+    font-size: 70%;
+}
+/* MAIN */
+
+#regalo img{
+    margin-left: 1.5%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px #dedede;
+    display: inline-block;
+}
+main #regalo {
+    background-color: white;
+    margin: 1.5rem;
+}
+#regalo h2{
+    padding-top: 1%;
+    margin-left: 1.5%;
+    font-size: 100%;
+}
+
+#regalo #tablet{
+    width: 16rem;
+    height: 20rem;
+    object-fit: cover;
+    margin: 1rem;
+    }
+    
+#regalo .foto{
+    width: 16rem;
+    height: 20rem;
+    object-fit: cover;
+    margin: 1rem;
+}
+
+span a{
+    padding-left: 1%;
+    font-size: 80%;
+    color:rgb(0, 85, 88) ;
+    text-decoration: none;
+}
+
+#gaming, #audio{
+    margin: 1.5rem;
+}
+#gaming img, #audio img{
+    width: 100%;
+}
+#gaming #visore{
+    width: 73rem;
+}
+#audio #cuffie{
+    width: 73rem;
+}
+
+
+h2{
+    padding: 1;
+    font-weight: bold;
+}
+
+/* ASIDE */
+
+aside{
+    background-color: rgb(54, 71, 89);
+    padding: 0.7%;
+}
+aside a{
+    color: rgb(229, 242, 241);
+    font-size: 80%;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(34, 47, 63);
+}
+footer img{
+    width: 8%;
+    padding: 2rem;
+}
